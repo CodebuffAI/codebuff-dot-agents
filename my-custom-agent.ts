@@ -23,8 +23,7 @@ const definition: AgentDefinition = {
   // Check out .agents/types/tools.ts for more information on the tools you can include.
   toolNames: ['run_terminal_command', 'read_files', 'spawn_agents'],
 
-  spawnPurposePrompt:
-    'Spawn when you need to review code changes in the git diff',
+  spawnerPrompt: 'Spawn when you need to review code changes in the git diff',
 
   instructionsPrompt: `Review the code changes and suggest improvements.
 Execute the following steps:

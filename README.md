@@ -25,7 +25,7 @@ Each agent file exports an `AgentDefinition` object with:
 - `model`: AI model to use (see OpenRouter for options)
 - `toolNames`: Tools the agent can use
 - `instructionsPrompt`: Instructions for the agent's behavior
-- `spawnPurposePrompt`: When other agents should spawn this one
+- `spawnerPrompt`: When other agents should spawn this one
 - `spawnableAgents`: Which agents *this* agent can spawn
 
 ## Common Tools
